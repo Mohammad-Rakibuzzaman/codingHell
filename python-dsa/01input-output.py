@@ -5,15 +5,15 @@
 # )
 
 
-user_radius = input("Please enter the radius of the circle ")
+# user_radius = input("Please enter the radius of the circle ")
 
 
-# print(type(user_radius))
-# converted_rad = int(user_radius)
-# print(type(converted_rad))
+# # print(type(user_radius))
+# # converted_rad = int(user_radius)
+# # print(type(converted_rad))
 
 
-radius = float(user_radius)
+# radius = float(user_radius)
 
-diameter = 2 * radius
-print(diameter)
+# diameter = 2 * radius
+# print(diameter)

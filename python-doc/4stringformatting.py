@@ -68,3 +68,4 @@ print(" ".join([x.capitalize() for x in "yo yo yo".split()]))
 
 
 "this is fun".find("fun")
+

@@ -1,5 +1,8 @@
 let name = "ratul";
-const age = 27;
-var isStudent = true;
+let age = 27;
+const isStudent = true;
 
-console.log("Hello my name is " + name + ".")
+console.log(name + " is " + age + " years old.");
+age = 28;
+console.log("Next year, " + name + " will be " + age + " years old.");
+

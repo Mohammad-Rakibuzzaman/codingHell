@@ -10,6 +10,14 @@ studlyCapVar = 10;
 properCamelCase = "A String";
 
 const FAV_PET = "Cats";
-FAV_PET = "Dogs";
+// FAV_PET = "Dogs";
 
-console.log(FAV_PET)
+// console.log(FAV_PET)
+
+
+
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+
+console.log(FCC, fact); // Change this line

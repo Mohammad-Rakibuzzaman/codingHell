@@ -9,5 +9,7 @@ let titleCaseOver = 3;
 studlyCapVar = 10;
 properCamelCase = "A String";
 
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
 
-console.log(titleCaseOver)
+console.log(FAV_PET)

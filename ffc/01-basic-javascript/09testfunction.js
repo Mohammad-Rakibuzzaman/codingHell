@@ -77,13 +77,47 @@ function fun1() {
 
 
 // Setup
-const outerWear = "T-Shirt";
+// const outerWear = "T-Shirt";
 
-function myOutfit() {
-  // Only change code below this line
-  const outerWear = "sweater";
-  // Only change code above this line
-  return outerWear;
+// function myOutfit() {
+//   // Only change code below this line
+//   const outerWear = "sweater";
+//   // Only change code above this line
+//   return outerWear;
+// }
+
+// console.log(outerWear)
+// console.log(myOutfit());
+
+
+
+// var createHelloWorld = function() {
+    
+//     return function(...args) {
+//         return "Hello World"
+//     }       
+// };
+
+// const f = createHelloWorld()
+// console.log(f())
+
+
+
+// let sum = 0;
+
+// function addSum(num) {
+//   sum += num;
+//   return sum;
+// }
+
+// console.log(addSum(3));
+
+
+let sum = 5;
+
+const addSum = function() {
+  sum += 5;
+  return sum;
 }
 
-myOutfit();
+console.log(addSum(3));

@@ -27,3 +27,13 @@ a = a + 1;
 b = b + 5;
 c = c + " String!";
 console.log(a, b, c)
+
+
+x = 2
+x = 12
+console.log(x)
+console.log(typeof(x))
+
+
+let str = "He said, \"I am a good guy!\".";
+console.log(str)

@@ -1,0 +1,5 @@
+function timesFive(mul){
+  return mul * 5;
+}
+
+const valueOne = timesFive("I love you !");

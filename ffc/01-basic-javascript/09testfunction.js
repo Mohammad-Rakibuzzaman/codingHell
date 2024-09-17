@@ -118,6 +118,7 @@ let sum = 5;
 const addSum = function() {
   sum += 5;
   return sum;
+  
 }
 
 console.log(addSum(3));

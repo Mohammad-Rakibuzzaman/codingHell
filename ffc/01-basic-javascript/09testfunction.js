@@ -113,12 +113,32 @@ function fun1() {
 // console.log(addSum(3));
 
 
-let sum = 5;
+// let sum = 5;
 
-const addSum = function() {
-  sum += 5;
-  return sum;
+// const addSum = function() {
+//   sum += 5;
+//   return sum;
   
-}
+// }
 
-console.log(addSum(3));
+// console.log(addSum(3));
+
+
+var createCounter = function(n) {
+  let i = 0;
+  let count = n;
+  return function() {
+      n = count + i;
+      i++;
+      return n;  
+  };
+};
+
+const answer = createCounter(10);
+// answer()
+// answer()
+// answer()
+
+console.log(answer())
+console.log(answer())
+console.log(answer())

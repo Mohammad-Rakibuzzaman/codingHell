@@ -1,1 +1,1 @@
-console.log(test(true));
+recordCollection[id]["tracks"] = [];
